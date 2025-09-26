@@ -5,12 +5,6 @@ from dotenv import load_dotenv
 import os
 import re
 from datetime import datetime
-#get environment variables
-# Config the openAlex request
-
-
-
-
 
 def run_etl(DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASS, MAIL) -> int:
     OPENALEX_URL = "https://api.openalex.org/works"

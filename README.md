@@ -37,10 +37,12 @@ Este proyecto implementa un flujo **ETL → API REST → Agente de IA**, que per
 5. Hacer una primera ingesta de datos
 Antes de usar el agente y la api, ejecuta el archivo ETL.py para hacer una primera ingesta de datos
     ```bash
-    python api/api.py
+    cd etl
+    python ELT.py
 
 6. Encender la API
     ```bash
+    cd ..
     cd api
     uvicorn main:app --reload
 7. Probar el agente

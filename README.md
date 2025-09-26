@@ -48,5 +48,6 @@ Antes de usar el agente y la api, ejecuta el archivo ETL.py para hacer una prime
     python agent/agent.py
 
 para ejecutar consultas personalizadas es necesario cambiar las consultas que vienen por defecto en el condicional del script:
+
 ![alt text](image.png)
 

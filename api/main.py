@@ -14,12 +14,12 @@ DB_USER = os.getenv("DB_USER")
 DB_PASS = os.getenv("DB_PASS")
 DB_PORT = os.getenv("DB_PORT")
 MAIL = os.getenv("MAIL")
-
+API_TOKEN = os.getenv("API_TOKEN")
 
 
 app = FastAPI(title="OpenAlex Works API")
 
-API_TOKEN = "KztF6MHydf8xSpGTdPJ7WHfVXwKgjaSiQkSsq2FhsjGtJ4SD1oAkee5HcklPKo6j"
+
 api_key_header = APIKeyHeader(name="X-API-Key", auto_error=True)
 
 def verify_token(api_key: str = Depends(api_key_header)):

@@ -1,9 +1,3 @@
-# Análisis de Seguridad y Protección de Datos
-
-En el desarrollo de esta prueba técnica se identificaron algunos riesgos relacionados con la seguridad y el manejo de la información. A continuación, se presentan los más relevantes y las medidas de mitigación que se proponen.
-
----
-
 ## Riesgos identificados
 
 ### 1. Exposición de información personal
